@@ -23,19 +23,6 @@ document.onkeyup = function (event) {
     var userGuess = event.key; 
    if (!(computerChoices.indexOf(userGuess) === -1)) {
 
-    // var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-
-
-        // if guesses remaining === 0
-            // do whatever you need to do to reset game
-            // reset comp guess
-        // else if userguess !== computerguess && guessesRemaining > 0
-            // do whatever you need to do to continue game
-        // else 
-            // reset comp guess
-            // game has been won
-
-
         if (guessesleft === 0)  {
             wins = 0;
             losses++
