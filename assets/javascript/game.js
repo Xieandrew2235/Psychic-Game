@@ -53,6 +53,8 @@ document.onkeyup = function (event) {
            wins++;
            guessesleft = 10;
            yourguesses = " ";
+           computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+            console.log(computerGuess);
        }
 
         directionsText.textContent = "";
