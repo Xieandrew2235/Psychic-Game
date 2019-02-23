@@ -1,11 +1,9 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 100px;
+    font-weight: bold;
     line-height: 34px;
     color: red;
     background: url("http://i.stack.imgur.com/spmUM.gif");
 }
 
-.div {
-    margin-left: 20px;
-}

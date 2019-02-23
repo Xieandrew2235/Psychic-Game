@@ -41,7 +41,9 @@ document.onkeyup = function (event) {
             losses++
             guessesleft = 10;
             yourguesses = " ";
-
+            computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+            console.log(computerGuess);
+            
         } else if (userGuess !== computerGuess && guessesleft >0) {
             guessesleft--;
             yourguesses = yourguesses + userGuess + " ";
